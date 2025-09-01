@@ -1,0 +1,2 @@
+"This is the terraform config file to create users and automatically assign them to a group, that you can assign policies to. You will have the ability to define the number of through the user names you provide. You can aslo set the the group name. By default there are two users 'andre' and 'timothy', and the polivies to be used are AWS 'BedrockFullAccess' and AWS 'S3ReadOnlyAccess'. Oh, forgot to mention that this for the use only in AWS.
+# class6-armageddon-mk2
