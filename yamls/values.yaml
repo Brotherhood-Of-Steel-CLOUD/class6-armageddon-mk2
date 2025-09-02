@@ -1,0 +1,11 @@
+server:
+  persistentVolume:
+    storageClass: gp2
+    size: 10Gi
+
+alertmanager:
+  persistence:
+    storageClass: gp2
+
+
+
