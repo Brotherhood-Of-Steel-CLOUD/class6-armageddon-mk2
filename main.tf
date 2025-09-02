@@ -1,5 +1,6 @@
 resource "aws_iam_group" "s3_bedrock_admin" {
-  path = "/test-users/"
+  
+ path = "/test-users/"
 }
 
 resource "aws_iam_group_policy_attachment" "s3_bedrock_group_policies" {
