@@ -90,6 +90,3 @@ YAML
 
 
 
-
-
-         * Commandsd prometheus-community https://pmunity.github.io/helm-charts repo add prometheus-community https://prometheus-community.github.io/helm-chartselm repo add prometheus-community https://prometheus-community.github.io/helm-charts
