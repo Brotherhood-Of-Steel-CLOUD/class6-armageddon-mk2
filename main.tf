@@ -1,6 +1,6 @@
 resource "aws_iam_group" "s3_bedrock_admin" {
-  name = var.group_name
-  path = "/test-users/"
+  
+ path = "/test-users/"
 }
 
 resource "aws_iam_group_policy_attachment" "s3_bedrock_group_policies" {
@@ -31,5 +31,3 @@ resource "aws_iam_group_membership" "memb-1" {
 
   group = aws_iam_group.s3_bedrock_admin.name
 }
-
-git pull
