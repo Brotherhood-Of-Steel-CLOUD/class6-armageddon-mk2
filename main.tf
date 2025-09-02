@@ -1,5 +1,4 @@
 resource "aws_iam_group" "s3_bedrock_admin" {
-  name = var.group_name #reference to variable file named "group_name", in variable.tf file
   path = "/test-users/"
 }
 
